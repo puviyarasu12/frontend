@@ -14,7 +14,7 @@ function App() {
   ]);
 
   useEffect(()=>{
-    fetch('https://mern-1-hcr4.onrender.com/api/expensesAll').then(res=>res.json()).then(data=>console.log(data))
+    fetch('https://expensetrackerfrontend-s3tp.onrender.com/api/expensesAll').then(res=>res.json()).then(data=>console.log(data))
   })
 
   const onDeleteTransaction = (id) => {
